@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_data/screen/category_offer.dart';
 import 'package:test_data/screen/store_home_page.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyApp1(),
+      home: Category_offer(),
     );
   }
 }
